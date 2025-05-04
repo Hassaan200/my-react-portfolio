@@ -1,0 +1,53 @@
+import React from 'react'
+import { NavLink } from 'react-router'
+import  { useEffect, useState } from "react";
+const Counter = ({ targetNumber }) => {
+    const [count, setCount] = useState(0);
+  
+    useEffect(() => {
+      let start = 0;
+      const duration = 2000; // 2 seconds
+      const step = Math.max(Math.floor(duration / targetNumber), 10);
+  
+      const timer = setInterval(() => {
+        start += 1;
+        setCount(start);
+        if (start >= targetNumber) clearInterval(timer);
+      }, step);
+  
+      return () => clearInterval(timer);
+    }, [targetNumber]);
+  
+    return <span>{count}+</span>;
+  };
+  
+const Hero = () => {
+     
+  return (
+    <>
+    <div className='bg-[url("/images/bg-green.png")] bg-cover bg-center w-full h-[1200px]'>
+
+   
+    <div className='flex flex-wrap xl:pt-35 lg:pt-21 md:pt-38 pt-26 justify-center items-center xl:gap-[15rem] gap-20  px-4 '>
+  <div className='lg:w-[400px] w-[320px] text-white text-center md:text-left '>
+    <h1 className='text-4xl font-medium leading-relaxed'>Hello, I'm</h1>
+    <span className='text-5xl font-bold'>Muhammad Hassan</span><br />
+    <p className='text-sm leading-tight mt-2'>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint facilis vel ea nisi. Inventore voluptas facere provident magni aspernatur dolorum, sint laborum doloremque harum quam officia! Vero quas cum similique?
+    </p>
+    <button className="bg-green-900  px-4 py-2 rounded-sm transition-all duration-300 hover:shadow-[0_0_20px_5px_rgba(0,255,0,0.8)] hover:scale-110 text-white font-medium mt-6">
+      <NavLink to="/">Know Me</NavLink>
+    </button>
+    <div className="flex justify-around bg-gradient-to-b from-green-950 to-black border-2 border-green-900 rounded-xl   duration-300 md:max-w-[400px] !mt-[44px] p-4 hover:shadow-[0_0_20px_5px_rgba(0,375,0,0.8)] " ><div className="flex flex-col items-center gap-2"><p className="text-2xl font-bold"><Counter targetNumber={5} /></p><p className="text-sm">Experience</p></div><div className="flex flex-col items-center gap-2"><p className="text-2xl font-bold"><Counter targetNumber={199} /></p><p className="text-sm">Projects</p></div><div className="flex flex-col items-center gap-2"><p className="text-2xl font-bold"><Counter targetNumber={55} /></p><p className="text-sm">Clients</p></div></div>
+  </div>
+
+  <div className='bg-black rounded-2xl w-[310px] xl:w-[350px] md:[30px] rotate-container group transition-all duration-300 hover:py-14 hover:px-4 cursor-pointer hover:shadow-[0_0_20px_5px_rgba(0,255,0,0.8)] py-10'>
+    <img src="/images/hero.png" alt="Hero" className='rotating-image mx-auto ' />
+  </div>
+</div>
+</div>
+    </>
+  )
+}
+
+export default Hero
