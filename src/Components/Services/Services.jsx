@@ -4,7 +4,7 @@ import { NavLink } from 'react-router'
 const Services = () => {
   return (
     <div className='bg-[url("/images/service-pic.png")] bg-cover bg-center text-white'>
-      <div className='flex flex-wrap pt-30 justify-center items-center gap-20  '>
+      <div className='flex flex-wrap pt-20 p-8 justify-center items-center gap-20  '>
        <div className='sm:max-w-[400px] max-w-[350px] sm:space-y-4 space-y-3 flex flex-col justify-center sm:text-left text-center'>
         <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold'>Services</h1>
         <p className='text-xm'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus eaque temporibus esse omnis exercitationem cum delectus distinctio. Vel, ea. Dolore rerum nesciunt error aspernatur libero doloremque amet quibusdam ab similique!</p>
