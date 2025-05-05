@@ -25,7 +25,7 @@ const Navbar = () => {
             </li>
             <li className="hover:bg-green-800 px-3 py-2 rounded-sm transition-all duration-300 hover:shadow-[0_0_20px_5px_rgba(0,255,0,0.8)] hover:scale-110 text-white  font-medium">
               <NavLink
-                to="/contact"
+                to="/Contact"
                 className={({ isActive }) =>
                   `${isActive ? 'text-green-600 hover:text-white' : 'text-white'
                   } hover:scale-110 transition-all duration-300`

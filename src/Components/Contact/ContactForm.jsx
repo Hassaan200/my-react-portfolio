@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { toast } from 'react-hot-toast';
+
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -48,7 +50,7 @@ const ContactForm = () => {
   
         if (data.success === "true") {
           console.log("Form submitted:", formData);
-          alert("Email sent successfully!");
+          toast.success("Email sent successfully!");
   
           //  Clear karge form submit hokr
           setFormData({ name: "", email: "", message: "" });
@@ -56,10 +58,12 @@ const ContactForm = () => {
           setSubmitted(true);
           setErrors({});
         } else {
-          alert("Something went wrong. Please try again.");
+          toast.error("Something went wrong. Please try again.");
         }
       } catch (error) {
-        alert("Error sending message.");
+        toast.error("Error sending message.");
+        //  Clear karge form submit hokr
+        setFormData({ name: "", email: "", message: "" });
         console.error("Formsubmit error:", error);
       }
     }

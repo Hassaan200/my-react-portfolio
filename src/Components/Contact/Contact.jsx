@@ -1,9 +1,11 @@
 import React from 'react'
 import ContactForm from './ContactForm'
+import { toast } from 'react-hot-toast';
+
 
 const Contact = () => {
   return (
-    <div className='bg-black pt-20 p-8'>
+    <div className='bg-black pt-40 p-8'>
         <div className='flex justify-center items-center flex-wrap gap-25'>
             <div>
         <ContactForm/>

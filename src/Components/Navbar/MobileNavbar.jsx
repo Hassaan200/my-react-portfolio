@@ -43,7 +43,7 @@ const MobileNavbar = () => {
         <h2 className="text-lg font-semibold">Menu</h2>
         <button onClick={() => setIsOpen(false)}>✕</button>
       </div>
-      <ul className="p-4 space-y-4">
+      <ul className="p-4 space-y-2">
 
       <li className="hover:bg-green-800 px-3 py-2 rounded-sm transition-all duration-300 hover:shadow-[0_0_20px_5px_rgba(0,255,0,0.8)] hover:scale-110 text-white  font-medium">
               <NavLink

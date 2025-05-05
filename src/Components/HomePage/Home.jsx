@@ -3,7 +3,7 @@ import Hero from '../Hero Section/Hero'
 import Container from '../Container/container'
 import Services from '../Services/Services'
 import Projects from '../Projects/Projects'
-import Contact from '../Services/Contact/Contact'
+import Contact from '../Contact/Contact'
 
 const Home = () => {
   return (
