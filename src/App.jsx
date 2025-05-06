@@ -9,9 +9,17 @@ import Projects from './Components/Projects/Projects';
 import Services from './Components/Services/Services';
 import Footer from './Components/Footer/Footer';
 import { Toaster } from 'react-hot-toast';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+import 'animate.css';
+
 
 
 function App() {
+  useEffect(() => {
+    AOS.init({ duration: 1000, once: true }); 
+  }, []);
 
   return (
     <>
@@ -38,15 +46,15 @@ function App() {
     success: {
       icon: '✅',
       style: {
-        background: 'green',
-        color: 'white',
+        background: 'white',
+        color: 'black',
       },
     },
     error: {
       icon: '❌',
       style: {
-        background: 'red',
-        color: 'white',
+        background: 'white',
+        color: 'black',
       },
     },
   }}

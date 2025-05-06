@@ -49,12 +49,12 @@ const Projects = () => {
     return (
         <div className='bg-black text-white'>
             <div className='text-center pt-32 p-10'>
-                <div className=' relative'>
+                <div className=' relative' data-aos="zoom-in">
 
                     <h1 className='text-5xl lg:text-8xl text-white/10 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 uppercase font-extrabold'>PROJECTS</h1>
                     <h1 className='sm:text-3xl lg:text-4xl text-2xl mb-20 tracking-widest font-bold text-center uppercase relative z-20'>Projects</h1>
                 </div>
-                <div className="flex justify-center gap-7 flex-wrap ">
+                <div className="flex justify-center gap-7 flex-wrap " data-aos="zoom-in">
                     {projects.map((value)=>(
 
                     <div className="box border-2 border-green-800 flex flex-col p-4 gap-5 hover:shadow-[0_0_20px_5px_rgba(0,255,0,0.8)] transition-all duration-300 rounded-2xl min-w-[300px] group hover:py-5 hover:px-5">
