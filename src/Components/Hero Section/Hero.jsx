@@ -1,8 +1,8 @@
 import React from 'react'
-import { NavLink } from 'react-router'
 import  { useEffect, useState } from "react";
 const Counter = ({ targetNumber }) => {
     const [count, setCount] = useState(0);
+    
   
     useEffect(() => {
       let start = 0;
@@ -21,23 +21,30 @@ const Counter = ({ targetNumber }) => {
     return <span>{count}+</span>;
   };
   
-const Hero = () => {
-     
+const Hero = ({ setIsOpen }) => {
+  
+ 
+
+
   return (
     <>
     <div className='bg-[url("/images/bg-green.png")] bg-cover bg-center w-full h-[1200px]'>
 
    
     <div className='flex flex-wrap xl:pt-35 lg:pt-21 md:pt-38 pt-26 justify-center items-center xl:gap-[15rem] gap-20  px-4 'data-aos="fade-up">
-  <div className='lg:w-[400px] w-[320px] text-white text-center md:text-left hero'>
+  <div className='lg:w-[400px] w-[320px] text-white text-center md:text-left '>
     <h1 className='text-4xl font-medium leading-relaxed font'>Hello, I'm</h1>
     <span className='sm:text-5xl text-4xl font-bold'>Muhammad Hassan</span><br />
     <p className='text-sm leading-tight mt-2'>
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint facilis vel ea nisi. Inventore voluptas facere provident magni aspernatur dolorum, sint laborum doloremque harum quam officia! Vero quas cum similique?
     </p>
-    <button className="bg-gradient-to-r from-green-800 to-green-950  px-4 py-2 rounded-sm transition-all duration-300 hover:shadow-[0_0_20px_5px_rgba(0,255,0,0.8)] hover:scale-110 text-white font-medium mt-6">
-      <NavLink to="/">Know Me</NavLink>
+    <button className="bg-gradient-to-r from-green-800 to-green-950  px-4 py-2 rounded-sm transition-all duration-300 hover:shadow-[0_0_20px_5px_rgba(0,255,0,0.8)] hover:scale-110 text-white font-medium mt-6 cursor-pointer" onClick={() => setIsOpen(true)}>
+      Know Me
     </button>
+
+    
+
+
     <div className="flex justify-around bg-gradient-to-b from-green-950 to-black border-2 border-green-900 rounded-xl   duration-300 md:max-w-[400px] !mt-[44px] p-4 hover:shadow-[0_0_20px_5px_rgba(0,375,0,0.8)] " ><div className="flex flex-col items-center gap-2"><p className="text-2xl font-bold"><Counter targetNumber={3} /></p><p className="text-sm">Experience</p></div><div className="flex flex-col items-center gap-2"><p className="text-2xl font-bold"><Counter targetNumber={100} /></p><p className="text-sm">Projects</p></div><div className="flex flex-col items-center gap-2"><p className="text-2xl font-bold"><Counter targetNumber={35} /></p><p className="text-sm">Clients</p></div></div>
   </div>
 

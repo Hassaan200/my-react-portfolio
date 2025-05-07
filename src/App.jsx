@@ -23,10 +23,11 @@ function App() {
 
   return (
     <>
+
     <MobileNavbar/>
       <Navbar/>
        <Routes>
-      <Route path="/" element={<Home/>} />
+      <Route path="/" element={<Home />} />
       <Route path="/Contact" element={<Contact/>} />
       <Route path="/Projects" element={<Projects/>} />
       <Route path="/Services" element={<Services/>} />

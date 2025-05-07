@@ -45,7 +45,7 @@ const MobileNavbar = () => {
       </div>
       <ul className="p-4 space-y-2">
 
-      <li className="hover:bg-green-800 px-3 py-2 rounded-sm transition-all duration-300 hover:shadow-[0_0_20px_5px_rgba(0,255,0,0.8)] hover:scale-110 text-white  font-medium">
+      <li className="hover:bg-green-800 px-3 py-2 rounded-sm transition-all duration-300 hover:scale-110 text-white  font-medium">
               <NavLink
                 to="/" onClick={() => setIsOpen(false)} 
                 className={({ isActive }) =>
@@ -56,7 +56,7 @@ const MobileNavbar = () => {
                 Home
               </NavLink>
             </li>
-            <li className="hover:bg-green-800 px-3 py-2 rounded-sm transition-all duration-300 hover:shadow-[0_0_20px_5px_rgba(0,255,0,0.8)] hover:scale-110 text-white  font-medium">
+            <li className="hover:bg-green-800 px-3 py-2 rounded-sm transition-all duration-300 hover:scale-110 text-white  font-medium">
               <NavLink
                 to="/Contact" onClick={() => setIsOpen(false)}
                 className={({ isActive }) =>
@@ -67,7 +67,7 @@ const MobileNavbar = () => {
                 Contact
               </NavLink>
             </li>
-            <li className="hover:bg-green-800 px-3 py-2 rounded-sm transition-all duration-300 hover:shadow-[0_0_20px_5px_rgba(0,255,0,0.8)] hover:scale-110 text-white  font-medium">
+            <li className="hover:bg-green-800 px-3 py-2 rounded-sm transition-all duration-300 hover:scale-110 text-white  font-medium">
               <NavLink
                 to="/Projects" onClick={() => setIsOpen(false)}
                 className={({ isActive }) =>
@@ -78,7 +78,7 @@ const MobileNavbar = () => {
                 Projects
               </NavLink>
             </li>
-            <li className="hover:bg-green-800 px-3 py-2 rounded-sm transition-all duration-300 hover:shadow-[0_0_20px_5px_rgba(0,255,0,0.8)] hover:scale-110 text-white  font-medium">
+            <li className="hover:bg-green-800 px-3 py-2 rounded-sm transition-all duration-300 hover:scale-110 text-white  font-medium">
               <NavLink
                 to="/Services" onClick={() => setIsOpen(false)}
                 className={({ isActive }) =>
@@ -90,7 +90,7 @@ const MobileNavbar = () => {
               </NavLink>
             </li>
            
-            <li className='bg-green-800 px-3 py-2 rounded-sm hover:shadow-[0_0_20px_5px_rgba(0,255,0,0.8)] hover:scale-110 transition-all duration-300 font-medium text-center'><Link to="" onClick={() => setIsOpen(false)}>Get Resume</Link></li>
+            <li className='bg-gradient-to-r from-green-800 to-green-950 px-3 py-2 rounded-sm hover:scale-110 transition-all duration-300 font-medium text-center'><Link to="" onClick={() => setIsOpen(false)}>Get Resume</Link></li>
       </ul>
     </div>
    </div>

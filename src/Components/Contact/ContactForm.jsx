@@ -71,7 +71,7 @@ const ContactForm = () => {
   
 
   return (
-    <div className="bg-green-950 text-white p-8 sm:w-md mx-auto w-[300px] rounded-lg shadow-md">
+    <div className="bg-green-950 text-white p-8 sm:w-md mx-auto w-[300px] rounded-lg shadow-md" data-aos="zoom-in">
       <h2 className="text-2xl font-semibold mb-6">Get in touch</h2>
       {submitted && <p className="text-green-400 font-medium mb-4">Email sent successfully!</p>}
       <form onSubmit={handleSubmit}>
