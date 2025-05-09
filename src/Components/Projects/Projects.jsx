@@ -5,19 +5,19 @@ const Projects = () => {
     const projects = [
         {
             id: 1,
+            img: "/project-images/zaptroo.png",
+            tittle: "Zaptro Store",
+            description: "React js, Context API, Clerk APIs and Authenication, Tailwind CSS, React Router.",
+            live: "https://e-commerce-store-react-lovat.vercel.app/",
+            code: "https://github.com/Hassaan200/E-commerce-store-react",
+        },
+        {
+            id: 2,
             img: "/project-images/webxv.png",
             tittle: "WebXV App",
             description: "React js, Tailwind CSS, React Router, Firbase for Authentication, Flowbite and Ant Design.",
             live: "https://web-xv-app.vercel.app/",
             code: "https://github.com/Hassaan200/WebXV-App",
-        },
-        {
-            id: 2,
-            img: "/project-images/Store.png",
-            tittle: "E-commerce Store",
-            description: "HTML, Tailwind CSS, JavaScript, Firbase for Authentication and other Css Libraries.",
-            live: "https://my-project-rho-ruby.vercel.app/",
-            code: "https://github.com/Hassaan200/my-own-store",
         },
         {
             id: 3,

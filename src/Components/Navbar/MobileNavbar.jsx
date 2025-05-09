@@ -90,7 +90,7 @@ const MobileNavbar = () => {
               </NavLink>
             </li>
            
-            <li className='bg-gradient-to-r from-green-800 to-green-950 px-3 py-2 rounded-sm hover:scale-110 transition-all duration-300 font-medium text-center'><Link to="" onClick={() => setIsOpen(false)}>Get Resume</Link></li>
+            <li className='bg-gradient-to-r from-green-800 to-green-950 px-3 py-2 rounded-sm hover:scale-110 transition-all duration-300 font-medium text-center'><Link to="/My Resume.pdf" target='blank' onClick={() => setIsOpen(false)}>Get Resume</Link></li>
       </ul>
     </div>
    </div>
