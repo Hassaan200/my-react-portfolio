@@ -36,7 +36,7 @@ const Hero = ({ setIsOpen }) => {
     <h1 className='text-4xl font-medium leading-relaxed font'>Hello, I'm</h1>
     <span className='sm:text-5xl text-4xl font-bold'>Muhammad Hassan</span><br />
     <p className='text-sm leading-tight mt-2'>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint facilis vel ea nisi. Inventore voluptas facere provident magni aspernatur dolorum, sint laborum doloremque harum quam officia! Vero quas cum similique?
+      I am a Front-End Developer with a strong foundation in HTML, CSS, JavaScript, and modern libraries like React.js and Tailwind CSS. With hands-on experience in building responsive, user-friendly websites.
     </p>
     <button className="bg-gradient-to-r from-green-800 to-green-950  px-4 py-2 rounded-sm transition-all duration-300 hover:shadow-[0_0_20px_5px_rgba(0,255,0,0.8)] hover:scale-110 text-white font-medium mt-6 cursor-pointer" onClick={() => setIsOpen(true)}>
       Know Me

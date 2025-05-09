@@ -43,7 +43,7 @@ const MobileNavbar = () => {
         <h2 className="text-lg font-semibold">Menu</h2>
         <button onClick={() => setIsOpen(false)}>✕</button>
       </div>
-      <ul className="p-4 space-y-2">
+      <ul className="p-2 space-y-2">
 
       <li className="hover:bg-green-800 px-3 py-2 rounded-sm transition-all duration-300 hover:scale-110 text-white  font-medium">
               <NavLink
@@ -88,9 +88,9 @@ const MobileNavbar = () => {
               >
                 Services
               </NavLink>
-            </li>
+            </li><br />
            
-            <li className='bg-gradient-to-r from-green-800 to-green-950 px-3 py-2 rounded-sm hover:scale-110 transition-all duration-300 font-medium text-center'><Link to="/My Resume.pdf" target='blank' onClick={() => setIsOpen(false)}>Get Resume</Link></li>
+           <Link to="/My Resume.pdf" target='blank' onClick={() => setIsOpen(false)} className='bg-gradient-to-r from-green-800 to-green-950 px-15 py-2 rounded-sm transition-all duration-300 font-medium ml-4 mt-10'>Get Resume</Link>
       </ul>
     </div>
    </div>
