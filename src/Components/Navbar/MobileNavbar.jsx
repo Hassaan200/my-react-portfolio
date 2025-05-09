@@ -45,7 +45,7 @@ const MobileNavbar = () => {
       </div>
       <ul className="p-2 space-y-2">
 
-      <li className="hover:bg-green-800 px-3 py-2 rounded-sm transition-all duration-300 hover:scale-110 text-white  font-medium">
+      <li className=" px-3 py-2 rounded-sm transition-all duration-300 hover:scale-110 text-white  font-medium">
               <NavLink
                 to="/" onClick={() => setIsOpen(false)} 
                 className={({ isActive }) =>
@@ -56,7 +56,7 @@ const MobileNavbar = () => {
                 Home
               </NavLink>
             </li>
-            <li className="hover:bg-green-800 px-3 py-2 rounded-sm transition-all duration-300 hover:scale-110 text-white  font-medium">
+            <li className=" px-3 py-2 rounded-sm transition-all duration-300 hover:scale-110 text-white  font-medium">
               <NavLink
                 to="/Contact" onClick={() => setIsOpen(false)}
                 className={({ isActive }) =>
@@ -67,7 +67,7 @@ const MobileNavbar = () => {
                 Contact
               </NavLink>
             </li>
-            <li className="hover:bg-green-800 px-3 py-2 rounded-sm transition-all duration-300 hover:scale-110 text-white  font-medium">
+            <li className=" px-3 py-2 rounded-sm transition-all duration-300 hover:scale-110 text-white  font-medium">
               <NavLink
                 to="/Projects" onClick={() => setIsOpen(false)}
                 className={({ isActive }) =>
@@ -78,7 +78,7 @@ const MobileNavbar = () => {
                 Projects
               </NavLink>
             </li>
-            <li className="hover:bg-green-800 px-3 py-2 rounded-sm transition-all duration-300 hover:scale-110 text-white  font-medium">
+            <li className=" px-3 py-2 rounded-sm transition-all duration-300 hover:scale-110 text-white  font-medium">
               <NavLink
                 to="/Services" onClick={() => setIsOpen(false)}
                 className={({ isActive }) =>
