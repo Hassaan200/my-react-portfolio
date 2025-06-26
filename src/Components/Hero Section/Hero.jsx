@@ -28,7 +28,7 @@ const Hero = ({ setIsOpen }) => {
 
   return (
     <>
-    <div className='bg-[url("/images/bg-green.png")] bg-cover bg-center w-full h-[1200px]'>
+    <div className='bg-[url("/images/bg-green.png")] bg-cover bg-center w-full h-[1245px]'>
 
    
     <div className='flex flex-wrap xl:pt-35 lg:pt-21 md:pt-38 pt-26 justify-center items-center xl:gap-[15rem] gap-20  px-4 'data-aos="fade-up">
