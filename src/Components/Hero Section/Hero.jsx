@@ -35,8 +35,8 @@ const Hero = ({ setIsOpen }) => {
   <div className='lg:w-[400px] w-[320px] text-white text-center md:text-left '>
     <h1 className='text-4xl font-medium leading-relaxed font'>Hello, I'm</h1>
     <span className='sm:text-5xl text-4xl font-bold'>Muhammad Hassan</span><br />
-    <p className='text-sm leading-tight mt-2'>
-      I am a Front-End Developer with a strong foundation in HTML, CSS, JavaScript, and modern libraries like React.js and Tailwind CSS. With hands-on experience in building responsive, user-friendly websites.
+    <p className='text-[15px] leading-relaxed mt-2 text-gray-200'>
+      I am a Full Stack Developer with a strong foundation in HTML, CSS, JavaScript, and modern libraries like React.js, Vue.js and Tailwind CSS on the front end, as well as Node.js, Express.js, MySQL/MariaDB, and MongoDB on the back end. With hands-on experience in building responsive, user-friendly websites and efficient server-side applications, I can develop and maintain complete web solutions from database to user interface.
     </p>
     <button className="bg-gradient-to-r from-green-800 to-green-950  px-4 py-2 rounded-sm transition-all duration-300 hover:shadow-[0_0_20px_5px_rgba(0,255,0,0.8)] hover:scale-110 text-white font-medium mt-6 cursor-pointer" onClick={() => setIsOpen(true)}>
       Know Me
