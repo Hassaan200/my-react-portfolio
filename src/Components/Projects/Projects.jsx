@@ -63,7 +63,7 @@ const Projects = () => {
                 <div className="flex justify-center gap-7 flex-wrap lg:gap-y-20" data-aos="zoom-in">
                     {projects.map((value) => (
 
-                        <div key={value.id} className="box border-2 border-green-800 flex flex-col sm:p-4 p-2 gap-5 hover:shadow-[0_0_20px_5px_rgba(0,255,0,0.8)] transition-all duration-400 rounded-2xl min-w-[300px] group hover:py-5 hover:px-5">
+                        <div key={value.id} className="box border-2 border-green-800 flex flex-col sm:p-4 p-2 gap-5 hover:shadow-[0_0_20px_5px_rgba(0,255,0,0.8)] transition-all duration-400 rounded-2xl min-w-[300px] group hover:scale-105">
                             <div>
                                 <img src={value.img} alt="" className='w-xs h-[170px] rounded-md' />
                             </div>

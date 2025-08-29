@@ -28,7 +28,7 @@ const Hero = ({ setIsOpen }) => {
 
   return (
     <>
-    <div className='bg-[url("/images/bg-green.png")] bg-cover bg-center w-full h-[1200px]'>
+    <div className='bg-[url("/images/bg-green.png")] bg-cover bg-center w-full h-[1245px]'>
 
    
     <div className='flex flex-wrap xl:pt-35 lg:pt-21 md:pt-38 pt-26 justify-center items-center xl:gap-[15rem] gap-20  px-4 'data-aos="fade-up">
@@ -48,7 +48,8 @@ const Hero = ({ setIsOpen }) => {
     <div className="flex justify-around bg-gradient-to-b from-green-950 to-black border-2 border-green-900 rounded-xl   duration-300 md:max-w-[400px] !mt-[44px] p-4 hover:shadow-[0_0_20px_5px_rgba(0,375,0,0.8)] " ><div className="flex flex-col items-center gap-2"><p className="text-2xl font-bold"><Counter targetNumber={3} /></p><p className="text-sm">Experience</p></div><div className="flex flex-col items-center gap-2"><p className="text-2xl font-bold"><Counter targetNumber={100} /></p><p className="text-sm">Projects</p></div><div className="flex flex-col items-center gap-2"><p className="text-2xl font-bold"><Counter targetNumber={35} /></p><p className="text-sm">Clients</p></div></div>
   </div>
 
-  <div className=' bg-black rounded-2xl w-[310px] xl:w-[360px] md:[30px] rotate-container group transition-all duration-300 md:hover:py-12 md:hover:px-4 py-5  cursor-pointer hover:shadow-[0_0_20px_5px_rgba(0,255,0,0.8)] '>
+  <div className=' bg-black rounded-2xl w-[310px] xl:w-[360px] md:[30px] rotate-container group transition-all duration-300 md:hover:scale-110
+    cursor-pointer hover:shadow-[0_0_20px_5px_rgba(0,255,0,0.8)] '>
     <img src="/images/hero.png" alt="Hero" className='rotating-image mx-auto' />
     <img 
     src="/images/upper.png" 

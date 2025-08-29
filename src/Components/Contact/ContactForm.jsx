@@ -108,7 +108,7 @@ const ContactForm = () => {
 
         <button
           type="submit"
-          className="mt-6 bg-green-800 hover:bg-green-700 text-white py-2 px-6 rounded font-semibold transition duration-300 hover:shadow-[0_0_20px_5px_rgba(0,250,0,0.8)] cursor-pointer"
+          className="mt-6 bg-green-900 hover:bg-green-800 text-white py-2 px-6 rounded font-semibold transition duration-300 hover:shadow-[0_0_20px_5px_rgba(0,100,0,0.6)] cursor-pointer"
         >
           Send Email
         </button>
