@@ -36,7 +36,7 @@ const Hero = ({ setIsOpen }) => {
     <h1 className='text-4xl font-medium leading-relaxed font'>Hello, I'm</h1>
     <span className='sm:text-5xl text-4xl font-bold'>Muhammad Hassan</span><br />
     <p className='text-sm leading-tight mt-2'>
-      I am a Front-End Developer with a strong foundation in HTML, CSS, JavaScript, and modern libraries like React.js and Tailwind CSS. With hands-on experience in building responsive, user-friendly websites.
+      I am a Full Stack Developer with a strong foundation in HTML, CSS, JavaScript, Node.js and modern libraries like React.js, Vue.js and Tailwind CSS. With hands-on experience in building responsive, user-friendly websites.
     </p>
     <button className="bg-gradient-to-r from-green-800 to-green-950  px-4 py-2 rounded-sm transition-all duration-300 hover:shadow-[0_0_20px_5px_rgba(0,255,0,0.8)] hover:scale-110 text-white font-medium mt-6 cursor-pointer" onClick={() => setIsOpen(true)}>
       Know Me
@@ -45,7 +45,7 @@ const Hero = ({ setIsOpen }) => {
     
 
 
-    <div className="flex justify-around bg-gradient-to-b from-green-950 to-black border-2 border-green-900 rounded-xl   duration-300 md:max-w-[400px] !mt-[44px] p-4 hover:shadow-[0_0_20px_5px_rgba(0,375,0,0.8)] " ><div className="flex flex-col items-center gap-2"><p className="text-2xl font-bold"><Counter targetNumber={3} /></p><p className="text-sm">Experience</p></div><div className="flex flex-col items-center gap-2"><p className="text-2xl font-bold"><Counter targetNumber={100} /></p><p className="text-sm">Projects</p></div><div className="flex flex-col items-center gap-2"><p className="text-2xl font-bold"><Counter targetNumber={35} /></p><p className="text-sm">Clients</p></div></div>
+    <div className="flex justify-around bg-gradient-to-b from-green-950 to-black border-2 border-green-900 rounded-xl   duration-300 md:max-w-[400px] !mt-[44px] p-4 hover:shadow-[0_0_20px_5px_rgba(0,375,0,0.8)] " ><div className="flex flex-col items-center gap-2"><p className="text-2xl font-bold"><Counter targetNumber={2} /></p><p className="text-sm">Experience</p></div><div className="flex flex-col items-center gap-2"><p className="text-2xl font-bold"><Counter targetNumber={100} /></p><p className="text-sm">Projects</p></div><div className="flex flex-col items-center gap-2"><p className="text-2xl font-bold"><Counter targetNumber={35} /></p><p className="text-sm">Clients</p></div></div>
   </div>
 
   <div className=' bg-black rounded-2xl w-[310px] xl:w-[360px] md:[30px] rotate-container group transition-all duration-300 md:hover:scale-110

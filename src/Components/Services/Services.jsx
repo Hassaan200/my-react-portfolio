@@ -13,7 +13,7 @@ const Services = ({ setIsOpen }) => {
         <button className="bg-gradient-to-r from-green-800 to-green-950  px-4 py-2 rounded-sm transition-all duration-300 hover:shadow-[0_0_20px_5px_rgba(0,255,0,0.8)] hover:scale-110 text-white font-medium  cursor-pointer " onClick={() => setIsOpen(true)}>
       Know Me
     </button>
-     <button className='border-1 rounded-sm cursor-pointer  px-4 py-1.5 flex items-center'><MdOutlineFileDownload className='text-xl '/><a href="/My Resume.pdf" download="My_Resume.pdf">Download Resume</a></button>
+     <button className='border-1 rounded-sm cursor-pointer  px-4 py-1.5 flex items-center'><MdOutlineFileDownload className='text-xl '/><a href="/Hassan resume (1).pdf" download="Hassan resume (1).pdf">Download Resume</a></button>
         </div>
        </div>
       <div className='grid grid-rows-2 gap-4 lg:grid-cols-2 sm:grid-rows-1'>

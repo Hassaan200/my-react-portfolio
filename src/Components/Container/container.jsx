@@ -10,8 +10,8 @@ const Container = ({ setIsOpen }) => {
         <img src="/images/coder.png" alt="" className='w-[300px] h-[270px] sm:w-[390px] sm:h-[390px] rounded-md' />
     </div>
     <div className='sm:max-w-[400px] max-w-[350px] sm:space-y-4 space-y-3 sm:text-left text-center' data-aos="zoom-in">
-        <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold'>I am a Frontend <br /> Developer</h1>
-        <p className='md:text-[17px] text-[14px]'>I'm a passionate Front-End Developer with a solid grasp of HTML, CSS, JavaScript, and React.js. I enjoy crafting responsive and user-friendly web interfaces that offer smooth user experiences. Currently, I'm focused on expanding my skills and contributing to impactful digital projects.</p>
+        <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold'>I am a Full Stack <br /> Developer</h1>
+        <p className='md:text-[17px] text-[14px]'>I'm a passionate Full Stack Developer with a solid grasp of HTML, CSS, JavaScript, Node.js, Vue.js, and React.js. I enjoy crafting responsive and user-friendly web interfaces that offer smooth user experiences. Currently, I'm focused on expanding my skills and contributing to impactful digital projects.</p>
         <div className='flex flex-wrap justify-center sm:justify-start sm:gap-8 gap-4 items-center mt-5'>
           <div>
         <button className="bg-gradient-to-r from-green-800 to-green-950  px-4 py-2 rounded-sm transition-all duration-300 hover:shadow-[0_0_20px_5px_rgba(0,255,0,0.8)] hover:scale-110 text-white font-medium  cursor-pointer " onClick={() => setIsOpen(true)}>
