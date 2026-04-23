@@ -52,7 +52,7 @@ const Hero = ({ setIsOpen }) => {
     cursor-pointer hover:shadow-[0_0_20px_5px_rgba(0,255,0,0.8)] '>
     <img src="/images/hero.png" alt="Hero" className='rotating-image mx-auto' />
     <img 
-    src="/images/upper.png" 
+    src="/images/diy.png" 
     alt="Overlay" 
     className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[300px] h-[320px] ' 
   />
