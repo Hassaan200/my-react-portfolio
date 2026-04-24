@@ -5,7 +5,7 @@ const Projects = () => {
     const projects = [
         {
             id: 1,
-            img: "/project-images/f1 dasboard.jpg",
+            img: "/project-images/L2.jpg",
             tittle: "FieldOps",
             description: "React.js, Node.js, Express.js, MySQL, REST APIs, Axios, and Tailwind CSS. ",
             live: "https://fieldops-cloud.vercel.app/",
@@ -71,7 +71,7 @@ const Projects = () => {
                                 <h1 className='font-bold text-center'>{value.tittle}</h1>
                                 <p className='text-justify'><span className='font-bold'>Tech: </span>{value.description}</p>
                             </div>
-                            <div className="flex gap-6 justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity group-hover:py-2">
+                            <div className="flex gap-6 justify-center items-center sm:opacity-0 group-hover:opacity-100 transition-opacity group-hover:py-2">
                                 <a href={value.live} target='blank' className='border-1 rounded-md font-medium cursor-pointer  px-4 py-1'>Live</a>
                                 <a href={value.code} target='blank' className="bg-gradient-to-r from-green-800 to-green-950  px-4 py-1.5 rounded-sm transition-all duration-300 hover:shadow-[0_0_20px_5px_rgba(0,255,0,0.8)] hover:scale-110 text-white font-medium ">
                                     View Code
