@@ -5,27 +5,27 @@ const Projects = () => {
     const projects = [
         {
             id: 1,
+            img: "/project-images/veloxaLanding.jpg",
+            tittle: "Veloxa AI",
+            description: "React.js, Node.js, Express.js, MySQL, REST APIs, Google Gemini API, Vercel and Tailwind CSS. ",
+            live: "https://nexabot-ai-assistant-seven.vercel.app",
+            code: "https://github.com/Hassaan200/Veloxa-AI",
+        },
+        {
+            id: 2,
             img: "/project-images/L2.jpg",
             tittle: "FieldOps",
-            description: "React.js, Node.js, Express.js, MySQL, REST APIs, Axios, and Tailwind CSS. ",
+            description: "Next.js, React.js, Node.js, Express.js, MySQL, REST APIs, Axios, and Tailwind CSS. ",
             live: "https://fieldops-cloud.vercel.app/",
             code: "https://github.com/Hassaan200/FieldOps",
         },
         {
-            id: 2,
+            id: 3,
             img: "/project-images/Store.png",
             tittle: "E-commerce Store",
             description: "HTML, Tailwind CSS, JavaScript, Firbase for Authentication and other Css Libraries.",
             live: "https://my-project-rho-ruby.vercel.app/",
             code: "https://github.com/Hassaan200/my-own-store",
-        },
-        {
-            id: 3,
-            img: "/project-images/kitaab.png",
-            tittle: "Book Store App",
-            description: "React js, Tailwind Css, React icons, React Router, Material UI and Ant Design.",
-            live: "https://book-store-app-phi.vercel.app/",
-            code: "https://github.com/Hassaan200/Book-store-app",
         },
         {
             id: 4,
@@ -37,19 +37,19 @@ const Projects = () => {
         },
         {
             id: 5,
-            img: "/project-images/z4.png",
+            img: "/project-images/kitaab.png",
+            tittle: "Book Store App",
+            description: "React js, Tailwind Css, React icons, React Router, Material UI and Ant Design.",
+            live: "https://book-store-app-phi.vercel.app/",
+            code: "https://github.com/Hassaan200/Book-store-app",
+        },
+        {
+            id: 6,
+             img: "/project-images/z4.png",
             tittle: "Todo List App By React",
             description: "React js, Tailwind Css, React icons, React Router and Ant Design.",
             live: "https://todo-react-app-beta-rosy.vercel.app/",
             code: "https://github.com/Hassaan200/Todo-React-app",
-        },
-        {
-            id: 6,
-            img: "/project-images/z5.png",
-            tittle: "Animated Cards Store with API",
-            description: "Html, CSS, JavaScript, Fetch API and Tailwind Css.",
-            live: "https://api-cards-weld.vercel.app/",
-            code: "https://github.com/Hassaan200/API-Assignment",
         },
     ]
     return (
