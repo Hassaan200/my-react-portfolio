@@ -45,7 +45,7 @@ const Projects = () => {
         },
         {
             id: 6,
-             img: "/project-images/z4.png",
+            img: "/project-images/z4.png",
             tittle: "Todo List App By React",
             description: "React js, Tailwind Css, React icons, React Router and Ant Design.",
             live: "https://todo-react-app-beta-rosy.vercel.app/",
