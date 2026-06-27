@@ -19,7 +19,7 @@ const Container = ({ setIsOpen }) => {
     </button>
           </div>
           <div>
-      <a href="/Hassan.Resume.pdf" download="My_Resume.pdf" className='border-1 rounded-sm cursor-pointer  px-4 py-2  items-center flex'><MdOutlineFileDownload className='text-xl '/>Download Resume</a>
+      <a href="/Hassan_Khaliq_Resume.pdf" download="Hassan_Khaliq_Resume.pdf" className='border-1 rounded-sm cursor-pointer  px-4 py-2  items-center flex'><MdOutlineFileDownload className='text-xl '/>Download Resume</a>
           </div>
         </div>
     </div>

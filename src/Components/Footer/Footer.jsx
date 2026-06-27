@@ -10,7 +10,7 @@ const Footer = () => {
     <div className='leading- lg:text-justify text-center'>
         <h1 className='sm:text-4xl text-3xl font-bold'>Muhammad Hassan</h1>
         <p className='sm:text-[18px] mt-3'>hassaankhaliq45@gmail.com</p>
-        <p className='sm:text-[18px]'>copyright © 2025 | Hassan</p>
+        <p className='sm:text-[18px]'>copyright © 2026 | Hassan</p>
     </div>
     <div>
        <div className="flex gap-8">
