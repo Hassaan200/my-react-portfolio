@@ -42,7 +42,7 @@ const [isOpen, setIsOpen] = useState(false);
           <div className="bg-gradient-to-r from-green-800 to-green-950 text-white p-6 rounded-lg w-full max-w-md mx-4 shadow-lg relative">
             <h2 className="text-xl font-bold mb-4">👋 Get to Know Me</h2>
             <p className="text-white font-medium">
-              I'm a frontend developer passionate about building beautiful and functional user experiences with React, Tailwind CSS, and JavaScript. I love solving problems, learning new things, and turning ideas into real apps.
+              I'm a Full Stack developer passionate about building beautiful and functional user experiences with React, Tailwind CSS, and JavaScript. I love solving problems, learning new things, and turning ideas into real apps.
             </p>
             <button
               onClick={() => setIsOpen(false)}

@@ -14,7 +14,7 @@ const Footer = () => {
     </div>
     <div>
        <div className="flex gap-8">
-        <a href="https://www.linkedin.com/in/hassaan-khaliq-a93921281/" target='blank'>
+        <a href="https://www.linkedin.com/in/muhammad-h-a93921281" target='blank'>
         <div className='bg-gray-200 p-1 text-black text-3xl rounded-md cursor-pointer'>
         <FaLinkedinIn />
         </div>
