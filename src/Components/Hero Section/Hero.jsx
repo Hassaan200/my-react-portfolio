@@ -50,10 +50,12 @@ const Hero = ({ setIsOpen }) => {
 
           <div className=' bg-black rounded-2xl w-[310px] xl:w-[360px] md:[30px] rotate-container group transition-all duration-300 md:hover:scale-110
     cursor-pointer hover:shadow-[0_0_20px_5px_rgba(0,255,0,0.8)] '>
-            <img src="/images/hero.png" alt="Hero" className='rotating-image mx-auto' />
+            <img src="/images/hero.png" alt="Hero" loading="eager" fetchPriority="high" className='rotating-image mx-auto' />
             <img
               src="/images/diy.png"
               alt="Overlay"
+              loading="eager"
+              fetchPriority="high"
               className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[300px] h-[320px] '
             />
           </div>
