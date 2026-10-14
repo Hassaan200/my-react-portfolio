@@ -11,7 +11,7 @@ const Contact = () => {
         <ContactForm />
             </div>
             <div className='hidden lg:block mt-10'>
-                <img src="/images/inbox.webp" alt="" className='w-[300px] float' />
+                <img src="/images/inbox.webp" alt="" loading="eager" className='w-[300px] float' />
             </div>
 
         </div>

@@ -65,7 +65,7 @@ const Projects = () => {
 
                         <div key={value.id} className="box border-2 border-green-800 flex flex-col sm:p-4 p-2 gap-5 hover:shadow-[0_0_20px_5px_rgba(0,255,0,0.8)] transition-all duration-400 rounded-2xl min-w-[300px] group hover:scale-105">
                             <div>
-                                <img src={value.img} alt="" className='w-xs h-[170px] rounded-md' />
+                                <img src={value.img} alt="" loading="eager" className='w-xs h-[170px] rounded-md' />
                             </div>
                             <div className='text-justify sm:w-[310px] w-[280px]'>
                                 <h1 className='font-bold text-center'>{value.tittle}</h1>
